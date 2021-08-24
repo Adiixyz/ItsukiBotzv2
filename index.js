@@ -964,7 +964,7 @@ bot.telegram.getMe().then((getme) => {
     console.log(chalk.greenBright(" │ + Platfrom : " + os.platform() || ""))
     console.log(chalk.greenBright(" │ + Prefix   : " + itsPrefix))
     console.log(chalk.greenBright(' ===================================================='))
-    console.log(chalk.whiteBright('╭─── [ LOG ]'))
+    console.log(chalk.whiteBright('╭── [ LOGS ]'))
 })
 process.once('SIGINT', () => bot.stop('SIGINT'))
 process.once('SIGTERM', () => bot.stop('SIGTERM'))
