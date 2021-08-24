@@ -143,6 +143,8 @@ bot.on("message", async(lol) => {
 
         switch (command) {
             case 'help':
+            case 'menu':
+            case 'itsukibot':
                 await help.help(lol, user.full_name, lol.message.from.id.toString())
                 break
 
